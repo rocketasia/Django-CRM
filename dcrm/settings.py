@@ -21,6 +21,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -29,6 +30,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'website',
     'dj_database_url',
+    'djangokit',
 ]
 
 MIDDLEWARE = [
@@ -73,6 +75,16 @@ DATABASES = {
 }
 DATABASES["default"] = dj_database_url.parse("postgresql://postgres:md8IS12usenow@db.slbchdtttmxnjwcyvhrk.supabase.co:5432/postgres")
 
+# DATABASES = {
+#         'default': {
+#             'ENGINE': 'pymongo',
+#             'NAME': 'djangocrm',
+#             'ENFORCE_SCHEMA': False,
+#             'CLIENT': {
+#                 'host': 'mongodb+srv://petergreaney:dVVGfnokiBAclo28@cluster0.8sqtv0d.mongodb.net?retryWrites=true&w=majority'
+#             }  
+#         }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
