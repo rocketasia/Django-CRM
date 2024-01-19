@@ -31,7 +31,6 @@ INSTALLED_APPS = [
     'website',
     'dj_database_url',
     'djangokit',
-    'jazzmin',
 ]
 
 MIDDLEWARE = [
