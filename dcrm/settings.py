@@ -71,7 +71,7 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-DATABASES["default"] = dj_database_url.parse("postgresql://postgres:md8IS12usenow@db.slbchdtttmxnjwcyvhrk.supabase.co:5432/postgres")
+# DATABASES["default"] = dj_database_url.parse("postgresql://postgres:usenow@db.slbchdtttmxnjwcyvhrk.supabase.co:5432/postgres")
 
 
 # Password validation
