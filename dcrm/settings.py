@@ -21,7 +21,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
-    'jazzmin',
+    
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -73,11 +73,11 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-# DATABASES["default"] = dj_database_url.parse("postgresql://postgres:md8IS12usenow@db.slbchdtttmxnjwcyvhrk.supabase.co:5432/postgres")
+# DATABASE ["default"] = dj_database_url.parse("postgresql://postgres:md8IS12usenow@db.slbchdtttmxnjwcyvhrk.supabase.co:5432/postgres")
 
 # DATABASES = {
 #         'default': {
-#             'ENGINE': 'pymongo',
+#             'ENGINE': 'djongo',
 #             'NAME': 'djangocrm',
 #             'ENFORCE_SCHEMA': False,
 #             'CLIENT': {
