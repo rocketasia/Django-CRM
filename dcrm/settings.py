@@ -67,27 +67,27 @@ WSGI_APPLICATION = 'dcrm.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'djongo',
-        'ENFORCE_SCHEMA': 'False',
-        'NAME': 'django-crm',
-        'CLIENT': {
-            'host': 'mongodb+srv://petergreaney:mOUbGSmRhapDuRRJ@cluster0.8sqtv0d.mongodb.net/', # Replace with your MongoDB server address
-        'port': 27017,               # Replace with your MongoDB port if different
-        },
-        
-    }
-}
-
-
-
 # DATABASES = {
 #     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
+#         'ENGINE': 'djongo',
+#         'ENFORCE_SCHEMA': 'False',
+#         'NAME': 'django-crm',
+#         'CLIENT': {
+#             'host': 'mongodb+srv://petergreaney:mOUbGSmRhapDuRRJ@cluster0.8sqtv0d.mongodb.net/', # Replace with your MongoDB server address
+#         'port': 27017,               # Replace with your MongoDB port if different
+#         },
+        
 #     }
 # }
+
+
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
 # DATABASE ["default"] = dj_database_url.parse("postgresql://postgres:md8IS12usenow@db.slbchdtttmxnjwcyvhrk.supabase.co:5432/postgres")
 
 # DATABASES = {
