@@ -67,24 +67,24 @@ WSGI_APPLICATION = 'dcrm.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
 # DATABASE ["default"] = dj_database_url.parse("postgresql://postgres:md8IS12usenow@db.slbchdtttmxnjwcyvhrk.supabase.co:5432/postgres")
 
-DATABASES = {
-        'default': {
-            'ENGINE': 'djongo',
-            'NAME': 'djangocrm',
-            'ENFORCE_SCHEMA': False,
-            'CLIENT': {
-                'host': 'mongodb+srv://petergreaney:dVVGfnokiBAclo28@cluster0.8sqtv0d.mongodb.net?retryWrites=true&w=majority'
-            }  
-        }
-}
+# DATABASES = {
+#         'default': {
+#             'ENGINE': 'djongo',
+#             'NAME': 'djangocrm',
+#             'ENFORCE_SCHEMA': False,
+#             'CLIENT': {
+#                 'host': 'mongodb+srv://petergreaney:dVVGfnokiBAclo28@cluster0.8sqtv0d.mongodb.net?retryWrites=true&w=majority'
+#             }  
+#         }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
