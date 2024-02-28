@@ -1,0 +1,54 @@
+# DjangoKit is a set of extensions for Django.
+# Copyright (C) 2019 Grigoriy Kramarenko
+# This file is distributed under the same license as the DjangoKit package.
+# Grigoriy Kramarenko <root@rosix.ru>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-23 18:38+1000\n"
+"PO-Revision-Date: 2019-12-23 18:38+1000\n"
+"Last-Translator: Grigoriy Kramarenko <root@rosix.ru>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: forms/postgres.py:13
+msgid "Введите правильный JSON."
+msgstr "Enter a valid JSON."
+
+#: validators.py:14
+msgid "Введите правильный телефонный номер."
+msgstr "Enter a valid phone number."
+
+#: validators.py:20
+msgid "Введите правильный идентификтор Webmoney."
+msgstr "Enter a valid Webmoney ID."
+
+#: validators.py:26
+msgid "Укажите правильный Webmoney-кошелёк."
+msgstr "Enter a valid Webmoney wallet."
+
+#: validators.py:32
+msgid "Укажите правильный кошелёк от Яндекс-Денег."
+msgstr "Enter a valid YandexMoney wallet."
+
+#: validators.py:38
+msgid "Введите правильный идентификтор Steam."
+msgstr "Enter a valid Steam ID."
+
+#: validators.py:44
+msgid "Введите правильную ссылку на обмен в Steam."
+msgstr "Enter a valid Steam trade link."
+
+#: validators.py:50
+msgid "Введите правильный UUID."
+msgstr "Enter a valid UUID."
+
+#: validators.py:56
+msgid "Введите правильный платёжный Bitcoin-адрес."
+msgstr "Enter a valid Bitcoin payment address."

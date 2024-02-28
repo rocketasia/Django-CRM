@@ -67,18 +67,18 @@ WSGI_APPLICATION = 'dcrm.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'djongo',
-#         'ENFORCE_SCHEMA': 'False',
-#         'NAME': 'django-crm',
-#         'CLIENT': {
-#             'host': 'mongodb+srv://petergreaney:mOUbGSmRhapDuRRJ@cluster0.8sqtv0d.mongodb.net/', # Replace with your MongoDB server address
-#         'port': 27017,               # Replace with your MongoDB port if different
-#         },
+DATABASES = {
+    'default': {
+        'ENGINE': 'djongo',
+        'ENFORCE_SCHEMA': 'False',
+        'NAME': 'django-crm',
+        'CLIENT': {
+            'host': 'mongodb+srv://petergreaney:mOUbGSmRhapDuRRJ@cluster0.8sqtv0d.mongodb.net/', # Replace with your MongoDB server address
+        'port': 27017,               # Replace with your MongoDB port if different
+        },
         
-#     }
-# }
+    }
+}
 
 
 
@@ -99,6 +99,17 @@ DATABASES = {
 #                 'host': 'mongodb+srv://petergreaney:dVVGfnokiBAclo28@cluster0.8sqtv0d.mongodb.net?retryWrites=true&w=majority'
 #             }  
 #         }
+# }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE'  : 'django.db.backends.mysql', # <-- UPDATED line 
+#         'NAME'    : 'django',                 # <-- UPDATED line 
+#         'USER'    : 'root',                     # <-- UPDATED line
+#         'PASSWORD': '',              # <-- UPDATED line
+#         'HOST'    : 'localhost',                # <-- UPDATED line
+#         'PORT'    : '3306',
+#     }
 # }
 
 # Password validation

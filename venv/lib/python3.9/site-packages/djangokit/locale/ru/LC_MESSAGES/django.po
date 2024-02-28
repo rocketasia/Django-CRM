@@ -1,0 +1,56 @@
+# DjangoKit is a set of extensions for Django.
+# Copyright (C) 2019 Grigoriy Kramarenko
+# This file is distributed under the same license as the DjangoKit package.
+# Grigoriy Kramarenko <root@rosix.ru>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-23 18:38+1000\n"
+"PO-Revision-Date: 2019-12-23 18:39+1000\n"
+"Last-Translator: Grigoriy Kramarenko <root@rosix.ru>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: forms/postgres.py:13
+msgid "Введите правильный JSON."
+msgstr "Введите правильный JSON."
+
+#: validators.py:14
+msgid "Введите правильный телефонный номер."
+msgstr "Введите правильный телефонный номер."
+
+#: validators.py:20
+msgid "Введите правильный идентификтор Webmoney."
+msgstr "Введите правильный идентификтор Webmoney."
+
+#: validators.py:26
+msgid "Укажите правильный Webmoney-кошелёк."
+msgstr "Укажите правильный Webmoney-кошелёк."
+
+#: validators.py:32
+msgid "Укажите правильный кошелёк от Яндекс-Денег."
+msgstr "Укажите правильный кошелёк от Яндекс-Денег."
+
+#: validators.py:38
+msgid "Введите правильный идентификтор Steam."
+msgstr "Введите правильный идентификтор Steam."
+
+#: validators.py:44
+msgid "Введите правильную ссылку на обмен в Steam."
+msgstr "Введите правильную ссылку на обмен в Steam."
+
+#: validators.py:50
+msgid "Введите правильный UUID."
+msgstr "Введите правильный UUID."
+
+#: validators.py:56
+msgid "Введите правильный платёжный Bitcoin-адрес."
+msgstr "Введите правильный платёжный Bitcoin-адрес."
